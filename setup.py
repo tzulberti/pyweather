@@ -9,7 +9,7 @@ setup(
     package_dir={'': '.'},
     version="1.0.2",
     description="wunderground.com client",
-    long_description=open('README.md').read(-1),
+    long_description=open('README.rst').read(-1),
     author="Tomas Zulberti",
     author_email="tzulberti@gmail.com",
     url="https://github.com/tzulberti/pyweather.git",
