@@ -88,6 +88,6 @@ class AlertsAPI(WundergroundAPI):
     '''
 
     def __init__(self, api_key, **kwargs):
-        super(Alerts, self).__init__(api_key=api_key,
-                                     feature='alerts',
-                                     **kwargs)
+        super(AlertsAPI, self).__init__(api_key=api_key,
+                                        feature='alerts',
+                                        **kwargs)
